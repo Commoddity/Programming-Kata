@@ -7,7 +7,7 @@ const buildRow = (leng, intgr) => {
   let row = '';
   for (let i = 0; i < leng; i++) {
     i < leng - 1 ? row += ((i + 1) * intgr) + " " : row += ((i + 1) * intgr) + "\n";
-  };
+  }
   return row;
 };
 
